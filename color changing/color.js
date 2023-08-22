@@ -1,15 +1,17 @@
 
+let i = 0;
+
 function changeColor(){
-  var arr = ['red','blue','yellow','voilet','orange','brown'];
-  var l = arr.length;
+  const arr = ['blue','yellow','red','orange','brown','green','pink','cyan','black',];
+  let l = arr.length
+  
+  document.getElementsByTagName('div')[0].style.background = arr[i++];
 
-  for(i = 0;i < l;i++){
-    document.getElementsByTagName('div')[0].style.background = arr[i];
-
+  if(i > l){
+    i = 0;
   }
- 
- }
 
+ }
 
 
 
