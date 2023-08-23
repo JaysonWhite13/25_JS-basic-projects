@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.first{
+    margin-top: 250px;
+    padding: 10px;
+    text-align: center;
+    font-family: Courier, monospace;
+    font-size: 20px;
+}
+.part{
+    animation: colorChange 5s infinite alternate ;
+}
+
+@keyframes colorChange{
+    0%{
+        color: blue;
+    }
+    20%{
+        color: pink;
+    }
+    40%{
+        color: yellow;
+    }
+    60%{
+        color: red;
+    }
+    80%{
+        color: burlywood;
+    }
+    100%{
+        color: green;
+    }
+}
+
+.but{
+  
+    text-align: center;
+    margin-top: 200px;
+    
+   
+}
+
+.buttext{
+    font-size: 40px;
+    padding: 10px;
+    margin-bottom: 10PX;
+    
+
+}
+
+.btn{
+    padding: 13px;
+    border: none;
+    background: linear-gradient(to right,red,orange,yellow,green,blue,indigo,purple);
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}

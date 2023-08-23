@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="anim.css">
+    <title>anim</title>
+</head>
+<body>
+    <div class="first">
+        <h1 class="part" id="part">CLICK THE BUTTON BELLOW TO DISPLAY THE HEX COLOR CODE <br> OF A RANDOM COLOR</h1>
+    </div>
+    <div class="but">
+        <p class="buttext">The hex code of the color is #<span id="hexcode">00000</span></p>
+        <button class="btn" onclick="changeColor()">click me</button>
+    </div>
+    
+<script src="anim.js"></script>
+</body>
+</html>
+
+<!-----function changeColor(){
+    var hex_nums = ["0","1","2","3","4","5","6","7","8","9","A","B","C","D","E","F"];//creating an array with length 15
+    var hex_color = '';
+
+    for( var i=0;i<6;i++){
+        var random_num = math.floor(math.random()* hex_nums.length);//generating a random number from the array earlier created
+
+        hex_color += hex_nums[random_num];//concatenating each generated number fron the array
+    }
+
+    document.getElementsByTagName("body")[0].style.background = '#' + hex_color;
+
+    document.getElementById('hexcode').innerHTML= hex_color;
+
+}--->
