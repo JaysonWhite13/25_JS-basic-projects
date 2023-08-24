@@ -1,7 +1,6 @@
-var i = 0;
 
 function changeColor(){
-    colors = ['red','orange','yellow','green','indigo','voilet','cyan','yellowgreen','brown'];
+    var hex_numbers = ['1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'];
 
     document.getElementsByTagName('body')[0].style.background = colors[i++];
 
