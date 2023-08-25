@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.cdnfonts.com/css/montecarlo');
+
+.container{
+    border: 1px black solid;
+    background: radial-gradient(rgb(35, 158, 158) 30% ,rgb(110, 43, 226));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   flex-direction: column;
+}
+
+.main{
+    border: 10px rgb(17, 207, 207) solid;
+    border-radius: 10px;
+    background-color: white;
+    width: 50%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.quote{
+    font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.autor{
+    font-size: 40px;
+    text-decoration: none;
+    font-family: 'MonteCarlo', sans-serif;
+    margin-bottom: -50px;
+}
+
+.btn{
+    background-color: rgb(24, 173, 173);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+
+.btn:hover{
+    background-color: rgb(34, 120, 120);
+}
