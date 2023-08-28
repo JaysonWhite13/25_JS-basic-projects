@@ -1,4 +1,4 @@
-# JS-basic-projects
+# 25 JS-basic-projects
 some project for learning sake
 
 ain't nothing special
