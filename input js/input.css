@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( rgb(144, 206, 225), whitesmoke);
+   
+}
+
+.head{
+    border-bottom: 1px black solid;
+    margin: 20px;
+}
+
+h3{
+    padding: 20px;
+    text-align: center;
+}
+.box{
+    border: 1px  black solid;
+    width: 600px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px;
+    border: none;
+}
+
+.btn{
+    padding: 5px;
+    margin-right:-4px;
+}
+.text{
+    padding: 5px;
+    width: 70%;
+}
+
+form{
+    height: 200px;
+}
+
+
+.formgroup{
+  
+    margin:2    0px;
+    padding:10px;
+    padding-left: 15px;
+}
+.submit{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.diplay{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+    padding: 20px;
+}
