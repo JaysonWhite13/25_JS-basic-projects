@@ -2,10 +2,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <link rel="stylesheet" href="tip.css">
     <title>Tips calc</title>
 </head>
 <body>
+    <div class="main">
+        <div class="container">
+            <div class="head">
+                <h3 style="text-align: center;">Tip calculator</h3>
+                <p  style="border: 1px solid lightgray;"></p>
+            </div>
+            <div class="middle">
+                <label for="bill">Bill amount</label><br>
+                <button style="height: 30px; width: 40px;border: 1px solid lightgrey;"><i class="fa-solid fa-dollar-sign"></i></button><input id="amount" type="number" style="height: 30px; width: 90%; border: 1px solid lightgrey;"><br><br>
+                <label for="guests">Number of Guests</label><br>
+                <button style="height: 30px; width: 40px;border: 1px solid lightgrey;"><i class="fa-solid fa-person"></i></button><input type="number" id="guests" style="height: 30px;width: 90%; border: 1px solid lightgrey;"><br><br>
+                <label for="quality">Service Quality</label><br>
+                <select id="quality" style="height: 30px;width: 100%; border: 1px solid lightgrey;" 200px;>
+                    <option disabled selected value="0">Choose....</option>
+                    <option value="0.3"> 30% -outstanding</option>
+                    <option value="0.2"> 20% -Good</option>
+                    <option value="0.15"> 15% -It was ok</option>
+                    <option value="0.10"> 10% -Bad</option>
+                    <option value="0.05"> 5% -Terrible</option>
+                </select>
+                <p  style="border: 1px solid lightgray;"></p><br>
+            </div>
+            <div class="tail">
+                <button id="rest" class="rest" onclick="tips()">Calculate</button><br>
+            </div>
+        </div>
+    </div>
+<div class="ans" id="dis">
+    <p id="appear"></p>
+</div>
     
 
 <script src="tip.js"></script>
