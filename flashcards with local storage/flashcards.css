@@ -1,33 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
 *{
-    margin: 0;
-    padding: 0;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
 }
 
 body{
-    background-color: rgb(239, 239, 239);
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    background-color: whitesmoke;
 }
 
-.navbar{
+.nav{
     background-color: white;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-   
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px 5px;
+    margin: auto;
 }
 
-.navbar h2{
-    margin-left: 200px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.but {
-    margin-right: 200px;
-
-}
-
-.add{
-    padding: 10px;
-    border: 1px red solid;
+button{
+    padding: 8px;
     border-radius: 5px;
+    border: 1px solid lightgray;
+    cursor: pointer;
 }
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.buts{
+    border: 1px solid red;
+    font-family: inherit;
+}
+
+.creates{
+    width: 380px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+.creates input{
+    width: 100%;
+    font-family: inherit;
+    border: 1px solid lightgrey;
+    height: 30px;
+
+}
+
+.flashcards{
+    border: 1px solid green;
+    padding: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    margin: 20px;
+    
+}
+
+.flashcard{
+    width: 370px;
+    height: 200px;
+    word-wrap: break-word;
+    margin: 10px; 
+    background:#fff;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.9);
+    position: relative;
+  }
+
+  .flashcard h2{font-size: 1rem;}
+
+
+ @media(max-width:760px){
+    .flashcard{
+        margin: auto;
+    }
+
+    .flashcard{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+  }
+
+  @media(max-width:500px){
+    .creates{
+        width: 100%;
+    }
+    .flashcard{
+        width: 100%;
+    }
+
+    .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+  }
+
+  @media(max-width:500px){
+    .buts{
+        width: 200px;
+       
+    }
+  }
